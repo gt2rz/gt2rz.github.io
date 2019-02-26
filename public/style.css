@@ -3,7 +3,7 @@ body{
 }
 
 .sideBar{
-    position:absolute;
+    position:fixed;
     top:0px;
     left:0px;
     width:240px;
@@ -68,4 +68,9 @@ body{
     margin-top:50px;
     text-align: justify;
     margin-bottom: 200px;
+}
+
+.seccion{
+    border-bottom:1px solid rgb(190, 190, 190);
+    padding-bottom:200px;
 }
