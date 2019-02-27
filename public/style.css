@@ -3,21 +3,13 @@ body{
 }
 
 .sideBar{
-<<<<<<< HEAD
     position:fixed;
-=======
-    position:absolute;
->>>>>>> 1d885b1ee51cb15569e0cd9929aef61a79fcec70
     top:0px;
     left:0px;
     width:240px;
     bottom:0px;
     background-color:#b45e13;
-<<<<<<< HEAD
     overflow-y: hidden;
-=======
-    overflow: none;
->>>>>>> 1d885b1ee51cb15569e0cd9929aef61a79fcec70
 }
 
 .sideBar img{
@@ -52,10 +44,7 @@ body{
     position:absolute;
     top:0px;
     left:300px;
-<<<<<<< HEAD
     padding-right:100px;
-=======
->>>>>>> 1d885b1ee51cb15569e0cd9929aef61a79fcec70
 }
 
 .content h1{
@@ -74,7 +63,6 @@ body{
     margin:0px;
 }
 
-<<<<<<< HEAD
 .about{
     color:#333;
     margin-top:50px;
@@ -86,10 +74,3 @@ body{
     border-bottom:1px solid rgb(190, 190, 190);
     padding-bottom:200px;
 }
-=======
-.content p{
-    color:#333;
-    margin-top:50px;
-    text-align: justify;
-}
->>>>>>> 1d885b1ee51cb15569e0cd9929aef61a79fcec70
