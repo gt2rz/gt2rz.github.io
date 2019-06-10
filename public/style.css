@@ -109,3 +109,36 @@ body{
 .rss a:hover{
     color:rgb(29, 29, 29);
 }
+
+.skills{
+    border-collapse: collapse;
+    border:none;
+    margin-left:100px;
+}
+
+.skills thead{
+    background-color:#135fb4;
+}
+
+thead td{
+    color:#fff !important;
+    font-weight: bold;
+}
+
+.skills td{
+ height: 30px;
+ width:50px;
+ border-bottom:1px solid #efefef;
+ text-align: center;
+ color:green;
+}
+
+.nameSkill{
+    width: 200px !important;
+    text-align: left !important;
+    padding-left:50px;
+    font-weight: bold;
+    color: #000000 !important;
+    background-color: #efefef;
+    border-bottom:1px solid #d7d7d7 !important;
+}
