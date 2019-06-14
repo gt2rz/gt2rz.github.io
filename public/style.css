@@ -10,13 +10,14 @@ body{
     bottom:0px;
     background-color:#135fb4;
     overflow-y: hidden;
+    background: url("img/indice.jpeg") repeat fixed;
 }
 
 .sideBar img{
     height: 15vw;
     width: 15vw;
     border-radius: 180px;
-    border:5px solid #1a73c9;
+    border:5px solid #2e6295;;
     margin-top:7vw;
     margin-left:7vw;
 }
@@ -31,13 +32,14 @@ body{
     text-align: center;
 }
 .sideBar li a{
-    color:#709df1;
+    color:#fff;
     text-decoration: none;   
     text-transform:  uppercase;
 }
 
 .sideBar li a:hover{
-    color:#fff;    
+    /* color:#fff;     */
+    font-size:1.2em;
 }
 
 .version{
@@ -84,6 +86,10 @@ body{
     padding-bottom:200px;
 }
 
+.seccion h2{
+    color:#135fb4;
+}
+
 .seccion p{
     color:#333;
     text-align: justify;
@@ -91,6 +97,10 @@ body{
 
 .content li{
     margin-bottom: 30px;
+}
+
+#about-mobile{
+    display:none;
 }
 
 .rss{
@@ -106,7 +116,6 @@ body{
 
 .rss a:hover{
     color:rgb(29, 29, 29);
-    font-size:1.05em;
 }
 
 .skills{
@@ -132,6 +141,10 @@ thead td{
  color:green;
 }
 
+.skills td i:hover{
+    font-size:1.4em;
+}
+
 .nameSkill{
     width: 200px !important;
     text-align: left !important;
@@ -140,4 +153,96 @@ thead td{
     color: #000000 !important;
     background-color: #efefef;
     border-bottom:1px solid #d7d7d7 !important;
+}
+
+.nameSkill:hover{
+    background-color:#e4e4e4;
+}
+
+a{
+    color:#333;
+}
+
+@media only screen and (max-width: 775px) {
+    .content{
+        left:0;
+        padding:0;
+        margin:0;
+    }
+
+    .rss a{
+        font-size: 0.65em;
+    }
+
+    #about{
+      padding: 60vw 6vw 40vw 2vw;
+      background: url("img/indice.jpeg") no-repeat fixed center;
+      color: #fff;
+      font-size:0.6em;
+    }
+
+    .rss a:hover{
+        color:rgb(29, 29, 29);
+        font-size:1.05em;
+    }
+
+    #about h1 span{
+        color:#7bb8e0;
+        font-size:1.6em;
+    }
+
+    .sideBar, #about p, #about h5, br{
+        display:none;
+    }
+
+    #about-mobile{
+        display:block;
+    }
+
+    #about-mobile p{
+        margin-right: 10vw;
+    }
+
+    .rss{
+        padding:0;
+        color:#fff;
+        font-size:1.6em;
+    }
+
+    .rss a{
+        color:#000;
+    }
+
+    /* .seccion ul li p{
+        display:none;
+    } */
+    .seccion, #about-mobile{
+        padding:2px 2px 2px 30px;
+        color:#aaa;
+    }
+
+    .seccion li{
+        list-style: none;
+        color:#aaa;
+    }
+
+    .seccion ul{
+        padding:0;
+        margin-right: 10vw;
+    }
+
+    .skills{
+        margin-left:0px;
+        margin-right: 10vw;
+        margin-bottom: 20vw;
+    }
+
+    #education, #about-mobile{
+        background:#f8f8f8;
+    }
+
+    .nameSkill{
+        width: 35vw !important;
+        padding-left:5vw;
+    }
 }
